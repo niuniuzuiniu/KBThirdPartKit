@@ -59,8 +59,6 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0CF34661200CAFCB00FB2FAE /* KBTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBTest.h; sourceTree = "<group>"; };
-		0CF34662200CAFCB00FB2FAE /* KBTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBTest.m; sourceTree = "<group>"; };
 		136996B9730DEC2B46C18413F32FD941 /* Pods_KBThirdPartKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBThirdPartKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		199DA33466FB5789393240E149DD92D2 /* Pods-KBThirdPartKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KBThirdPartKit_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -246,8 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				0851BC31261E3BE663E35A4BB3DA0408 /* Support Files */,
-				0CF34661200CAFCB00FB2FAE /* KBTest.h */,
-				0CF34662200CAFCB00FB2FAE /* KBTest.m */,
 			);
 			name = KBThirdPartKit;
 			path = ../..;
