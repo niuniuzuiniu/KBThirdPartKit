@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KBThirdPartKit_Example' do
+  pod 'KBThirdPartKit', :path => '../'
+
+  target 'KBThirdPartKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
