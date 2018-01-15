@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KBThirdPartKit'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of KBThirdPartKit.'
 
   s.description      = <<-DESC
@@ -19,6 +19,10 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'KBThirdPartKit' => ['KBThirdPartKit/Assets/*.png']
   # }
+
+  s.subspec 'source' do |ss|
+  ss.source_files = 'KBThirdPartKit/Classes/**/*'
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
