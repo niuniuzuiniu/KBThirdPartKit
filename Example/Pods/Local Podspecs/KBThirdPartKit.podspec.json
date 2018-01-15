@@ -1,6 +1,6 @@
 {
   "name": "KBThirdPartKit",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "A short description of KBThirdPartKit.",
   "description": "第三方开源库组合封装",
   "homepage": "https://github.com/niuniuzuiniu/KBThirdPartKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/niuniuzuiniu/KBThirdPartKit.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
