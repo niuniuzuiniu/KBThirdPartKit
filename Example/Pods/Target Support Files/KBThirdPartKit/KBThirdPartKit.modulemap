@@ -1,0 +1,6 @@
+framework module KBThirdPartKit {
+  umbrella header "KBThirdPartKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
