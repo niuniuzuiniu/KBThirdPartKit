@@ -1,9 +1,9 @@
 {
   "name": "KBThirdPartKit",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A short description of KBThirdPartKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuweiqing/KBThirdPartKit",
+  "description": "第三方开源库组合封装",
+  "homepage": "https://github.com/niuniuzuiniu/KBThirdPartKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "liuweiqing": "liuweiqing@lianjia.com"
   },
   "source": {
-    "git": "https://github.com/liuweiqing/KBThirdPartKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/niuniuzuiniu/KBThirdPartKit.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KBThirdPartKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "source",
+      "source_files": "KBThirdPartKit/Classes/**/*"
+    },
+    {
+      "name": "lib",
+      "vendored_libraries": "Example/Products/KBThirdPartKit/libKBThirdPartKit.a",
+      "source_files": "KBThirdPartKit/Classes/**/*.{h}"
+    }
+  ]
 }

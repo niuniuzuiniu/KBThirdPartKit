@@ -1,23 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - KBThirdPartKit (0.1.0)
+  - KBThirdPartKit/lib (0.3.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - KBThirdPartKit (from `../`)
+  - KBThirdPartKit/lib (from `../`)
 
 EXTERNAL SOURCES:
   KBThirdPartKit:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  KBThirdPartKit: f6fd16b97deab39ca9a06ea2a06a3b78b07b4ade
+  KBThirdPartKit: fd36cc1a849377dd02ee559170fddf1fede06075
 
-PODFILE CHECKSUM: fb0ff04de9f919ebeebcb5008d6baf03d7366c98
+PODFILE CHECKSUM: d3bc7bf3234c5dd41f33e7213b5cbeb042c86c14
 
 COCOAPODS: 1.3.1

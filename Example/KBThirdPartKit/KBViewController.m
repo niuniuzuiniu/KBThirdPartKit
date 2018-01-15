@@ -7,6 +7,7 @@
 //
 
 #import "KBViewController.h"
+#import "masonry.h"
 
 @interface KBViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.view mas_makeConstraints:^(MASConstraintMaker *make) {
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

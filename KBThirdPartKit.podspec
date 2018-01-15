@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KBThirdPartKit'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of KBThirdPartKit.'
 
   s.description      = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KBThirdPartKit/Classes/**/*'
+  # s.source_files = 'KBThirdPartKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'KBThirdPartKit' => ['KBThirdPartKit/Assets/*.png']
@@ -22,6 +22,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'source' do |ss|
   ss.source_files = 'KBThirdPartKit/Classes/**/*'
+  end
+
+  s.subspec 'lib' do |ss|
+  ss.vendored_libraries = 'Example/Products/KBThirdPartKit/libKBThirdPartKit.a'
+  ss.source_files = 'KBThirdPartKit/Classes/**/*.{h}'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
