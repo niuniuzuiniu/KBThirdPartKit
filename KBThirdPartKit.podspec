@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
                        第三方开源库组合封装
                        DESC
 
-  s.homepage         = 'https://github.com/liuweiqing/KBThirdPartKit'
+  s.homepage         = 'https://github.com/niuniuzuiniu/KBThirdPartKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuweiqing' => 'liuweiqing@lianjia.com' }
-  s.source           = { :git => 'https://github.com/liuweiqing/KBThirdPartKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/niuniuzuiniu/KBThirdPartKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
