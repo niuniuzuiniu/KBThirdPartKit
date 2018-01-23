@@ -25,13 +25,6 @@
 #import "View+MASAdditions.h"
 #import "View+MASShorthandAdditions.h"
 #import "ViewController+MASAdditions.h"
-#import "TPKeyboardAvoidingCollectionView.h"
-#import "TPKeyboardAvoidingScrollView.h"
-#import "TPKeyboardAvoidingTableView.h"
-#import "UIScrollView+TPKeyboardAvoidingAdditions.h"
-#import "NSObject+YYModel.h"
-#import "YYClassInfo.h"
-#import "YYModel.h"
 
 FOUNDATION_EXPORT double KBThirdPartKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char KBThirdPartKitVersionString[];

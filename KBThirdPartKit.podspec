@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KBThirdPartKit'
-  s.version          = '0.4.0'
+  s.version          = '0.6.0'
   s.summary          = 'A short description of KBThirdPartKit.'
 
   s.description      = <<-DESC
@@ -15,10 +15,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'KBThirdPartKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KBThirdPartKit' => ['KBThirdPartKit/Assets/*.png']
-  # }
 
   s.subspec 'source' do |ss|
   ss.source_files = 'KBThirdPartKit/Classes/**/*'
@@ -27,9 +23,15 @@ Pod::Spec.new do |s|
   s.subspec 'lib' do |ss|
   ss.vendored_libraries = 'Example/Products/KBThirdPartKit/libKBThirdPartKit.a'
   ss.source_files = 'KBThirdPartKit/Classes/**/*.{h}'
+
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+# pod 'Masonry', '= 1.1.0’
+# pod 'YYModel', '= 1.0.4'
+# pod 'TPKeyboardAvoiding', '= 1.3'
+# pod 'AFNetworking', '= 3.1.0'

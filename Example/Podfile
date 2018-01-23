@@ -1,5 +1,5 @@
 use_frameworks!
 
 target 'KBThirdPartKit_Example' do
-  pod 'KBThirdPartKit/source', :path => '../'
+  pod 'KBThirdPartKit/lib', :git=> 'https://github.com/niuniuzuiniu/KBThirdPartKit.git'
 end
